@@ -1,12 +1,13 @@
-Django Task Manager
-This is a simple Django application for managing tasks. It provides a list of tasks for each day of the week and allows navigation to specific tasks using both the day name and a number.
+#Django Task Manager
+ This is a simple Django application for managing tasks. It provides a list of tasks for each day of the week and allows navigation to specific tasks using both the day name and a number.
 
-Features
-List all tasks for the week
-View tasks for a specific day
-Redirect to tasks using a numeric index
-Project Structure
-The project consists of the following views:
+##Features
+ List all tasks for the week
+ View tasks for a specific day
+ Redirect to tasks using a numeric index
+
+## Project Structure
+ The project consists of the following views:
 
 index: Displays the list of all tasks for the week.
 challenges: Displays the task for a specific day.
