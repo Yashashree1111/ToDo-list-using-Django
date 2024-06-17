@@ -36,3 +36,9 @@
 
  Redirect to a task using a number:
  Navigate to /numberchallenge/<num>/ where <num> is the index of the day (e.g., 1 for Monday, 2 for Tuesday, etc.).
+
+ ![image](https://github.com/Yashashree1111/ToDo-list-using-Django/assets/106982749/e305a85e-009a-44b7-adf6-3a6c5d4dd6ab)
+
+ ![image](https://github.com/Yashashree1111/ToDo-list-using-Django/assets/106982749/af3221b7-07eb-4107-8648-deac1c0944b5)
+
+
