@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_title %}
+All chalenges
+{% endblock %}
+{% block css_files %}
+    <link rel = "stylesheet" href="{% static "challenges/styles.css" %}">
+    <link rel = "stylesheet" href="{% static "challenges/includes/header.css" %}">
+
+{% endblock %}
+
+{% block content %}
+    {% include "challenges/includes/header.html" %}
+    <div class = "imgdiv">
+        <img class = "introimg" src="https://static.vecteezy.com/system/resources/previews/013/247/522/non_2x/doodle-checklist-set-to-do-task-list-vector.jpg" height="500px" width="500px">
+    </div>
+    <h1>Welcome to our site. view your this weeks challenges here.</h1>
+    <ul>
+        {% for task in tasklists %}
+            <li><a href="{% url "month-path" task %}"> {{task}} </a></li>
+        {% endfor %}
+
+{% endblock %}

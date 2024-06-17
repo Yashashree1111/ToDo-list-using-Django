@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{%block page_title%}
+    tasks
+{%endblock%}
+
+{% block css_files %}
+
+    <link rel = "stylesheet" href="{% static "challenges/includes/header.css" %}">
+
+{% endblock %}
+
+{% block content %}
+
+    {% include "challenges/includes/header.html" %}
+    <h1>{{day}}'s Task is 👇🏻</h1>
+    <h2>{{task}}</h2>
+
+{%endblock%}
