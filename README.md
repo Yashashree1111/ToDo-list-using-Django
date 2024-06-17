@@ -27,7 +27,7 @@
  Run the Django development server:
  python manage.py runserver
  
- ##Usage
+ ## Usage
  View all tasks:
  Navigate to the root URL to see the list of all tasks for the week.
 
